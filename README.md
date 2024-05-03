@@ -9,7 +9,7 @@ The code is built on [mdistiller](<https://github.com/megvii-research/mdistiller
 ## Framework & Performance
 
 ### Different teachers distilled into `ResNet8`
-<div style="text-align:center"><img src=".github/resnet8.png" width="75%" ></div>
+<div style="text-align:center"><img src=".github/resnet8.jpg" width="75%" ></div>
 
 ### Differernt teacher distilled into `MobileNetV2`
 <div style="text-align:center"><img src=".github/mobilenetv2.jpg" width="75%" ></div>

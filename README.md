@@ -1,4 +1,8 @@
-# [Dynamic Temperature Knowledge Distillation](https://arxiv.org/abs/2404.12711)
+# Dynamic Temperature Knowledge Distillation
+
+> 代码正在持续更新中, 如果有任何的问题, 欢迎提ISSUE或者联系我~
+
+The paper link is <https://arxiv.org/abs/2404.12711>
 
 The code is built on [mdistiller](<https://github.com/megvii-research/mdistiller>).
 
@@ -11,6 +15,8 @@ The code is built on [mdistiller](<https://github.com/megvii-research/mdistiller
 <div style="text-align:center"><img src=".github/mobilenetv2.jpg" width="75%" ></div>
 
 ## TODO
+- [ ] To update the code that records the temperature in training.
+- [ ] To update the analysis code.
 - [ ] Release other network models. (Such as ResNetXXX)
 
 ## Installation

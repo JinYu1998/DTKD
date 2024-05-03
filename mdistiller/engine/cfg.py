@@ -165,3 +165,12 @@ CFG.DKD.ALPHA = 1.0
 CFG.DKD.BETA = 8.0
 CFG.DKD.T = 4.0
 CFG.DKD.WARMUP = 20
+
+# DTKD(Dynamic Temperature Knowledge Distillation) CFG
+CFG.DTKD = CN()
+CFG.DTKD.LOSS = CN()
+CFG.DTKD.ALPHA = 3.0      # DTKD
+CFG.DTKD.BETA = 1.0       # KD
+CFG.DTKD.CE_WEIGHT = 1.0  # CE
+CFG.DTKD.T = 4
+CFG.DTKD.WARMUP = 20

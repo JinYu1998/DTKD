@@ -1,11 +1,19 @@
-## Code release for Dynamic Temperature Knowledge Distillation.
+# [Dynamic Temperature Knowledge Distillation](https://arxiv.org/abs/2404.12711)
 
 The code is built on [mdistiller](<https://github.com/megvii-research/mdistiller>).
+
+## Framework & Performance
+
+### Different teachers distilled into `ResNet8`
+<div style="text-align:center"><img src=".github/resnet8.png" width="75%" ></div>
+
+### Differernt teacher distilled into `MobileNetV2`
+<div style="text-align:center"><img src=".github/mobilenetv2.jpg" width="75%" ></div>
 
 ## TODO
 - [ ] Release other network models. (Such as ResNetXXX)
 
-### Installation
+## Installation
 
 Environments:
 
@@ -21,7 +29,7 @@ sudo python3 setup.py develop
 
 For more details please refer to <https://github.com/megvii-research/mdistiller>
 
-### CIFAR-100
+## CIFAR-100
 
 - Download the `cifar_teachers.tar` at <https://github.com/megvii-research/mdistiller/releases/tag/checkpoints> and untar it to `./download_ckpts` via `tar xvf cifar_teachers.tar`.
 
@@ -33,4 +41,5 @@ For more details please refer to <https://github.com/megvii-research/mdistiller>
 - Sincere gratitude to the contributors of mdistiller for your distinguished efforts.
 
 # Contact
-[YuKang Wei]: weiyukang1998@163.com
+
+YuKang Wei: weiyukang1998@163.com

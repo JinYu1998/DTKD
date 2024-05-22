@@ -1,7 +1,5 @@
 # Dynamic Temperature Knowledge Distillation
 
-> 代码正在持续更新中, 如果有任何的问题, 欢迎提ISSUE或者联系我~
-
 The paper link is <https://arxiv.org/abs/2404.12711>
 
 The code is built on [mdistiller](<https://github.com/megvii-research/mdistiller>).

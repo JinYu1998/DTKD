@@ -4,7 +4,7 @@ The paper link is <https://arxiv.org/abs/2404.12711>
 
 The code is built on [mdistiller](<https://github.com/megvii-research/mdistiller>).
 
-# Errata and Clarification for DTKD Research
+# !!! Errata and Clarification for DTKD Research !!! 
 
 If you are reading DTKD, please take note: There are significant mathematical derivation errors in this paper. Specifically, the errors are in Formulas 4 and 5. The derivation contains a serious mistake. The correct $\delta$ should be $max_i {(u_i - v_i) / (u_i + v_i)} * t$. This means that the subsequent $\tau + \delta$ and $\tau - \delta$ cannot be derived as originally proposed. (Interestingly, this error was not detected by reviewers in two conference review processes. Thanks to Professor Xu for pointing out this error.)
 
